@@ -7,7 +7,6 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-
 public class BurgerTest {
     Burger burger = new Burger();
     @Mock
@@ -57,7 +56,6 @@ public class BurgerTest {
     public void getReceiptBurger() {
         burger.setBuns(bun);
         burger.addIngredient(ingredient);
-
         String nameBun = "black bun";
         String nameIngredient = "cutlet";
         float price = 210f;
